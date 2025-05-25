@@ -435,6 +435,70 @@ function App() {
           </div>
         </div>
 
+        <div className="footer">
+          <div className="footerBox foot" id="">
+            <h3 className="info">Company Info</h3>
+            <div className="companyDetai">
+              <p className="infoDetails">About Us</p>
+              <p className="infoDetails">Carrier</p>
+              <p className="infoDetails">We are hiring</p>
+              <p className="infoDetails">Blog</p>
+            </div>
+          </div>
+
+          <div className="footerBox foot" id="">
+                      <div className="footerBox foot" id="">
+            <h3 className="info">Company Info</h3>
+            <div className="companyDetai">
+              <p className="infoDetails">About Us</p>
+              <p className="infoDetails">Carrier</p>
+              <p className="infoDetails">We are hiring</p>
+              <p className="infoDetails">Blog</p>
+            </div>
+          </div>
+          </div>
+
+          <div className="footerBox foot" id="">
+                      <div className="footerBox foot" id="">
+            <h3 className="info">Company Info</h3>
+            <div className="companyDetai">
+              <p className="infoDetails">Business Marketing</p>
+              <p className="infoDetails">User Analytic</p>
+              <p className="infoDetails">Live Chat</p>
+              <p className="infoDetails">Unlimited Support</p>
+            </div>
+          </div>
+          </div>
+
+          <div className="footerBox foot" id="">
+                      <div className="footerBox foot" id="">
+            <h3 className="info">Company Info</h3>
+            <div className="companyDetai">
+              <p className="infoDetails">IOS & Android</p>
+              <p className="infoDetails">Watch a Demo</p>
+              <p className="infoDetails">Customers</p>
+              <p className="infoDetails">API</p>
+            </div>
+          </div>
+          </div>
+
+          <div className="footerBox foot" id="">
+            <div className="footerBox foot" id="">
+              <h3 className="info">Get in Touch</h3>
+              <div className="companyDetai">
+
+                <form action="submit" className="subscribe">
+                  <input type="email" placeholder="Your Email" className="emailInput" />
+                  <button className="subscribeButton">Subscribe</button>
+                </form>
+                <p className="lorem">Lore imp sum dolor Amit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="copyright">
+          <p className="copyrightText">Made With Love By Finland All Right Reserved </p>
+        </div>
 
       </div>
       
