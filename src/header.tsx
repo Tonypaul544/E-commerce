@@ -3,13 +3,13 @@ import './header.css';
 import Call from './icons/call-icon.png';
 import Mail from './icons/email-icon.png';
 import Instagram from './icons/instagram.png';
-import Facebook from './icons/Facebook.png';
+import Facebook from './icons/facebook.png';
 import Youtube from './icons/Youtube.png';
-import Twitter from './icons/Twitter.png';
-import Avatar from './icons/Avatar.png';
-import Cart from './icons/Cart.png';
-import Search from './icons/Search.png';
-import Favorite from './icons/Favorite.png';
+import Twitter from './icons/twitter.png';
+import Avatar from './icons/avatar.png';
+import Cart from './icons/cart.png';
+import Search from './icons/search.png';
+import Favorite from './icons/favorite.png';
 
 export default function Header() {
 
