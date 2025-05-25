@@ -17,7 +17,7 @@ import Hackgroth from './icons/hackgrowth.png';
 
 // FORTH SECTION
 import Calendar from './icons/clock.png';
-import Gallery from './icons/Gallery.png';
+import Gallery from './icons/gallery.png';
 import Rightangle from './icons/Rightangle.png';
 
 //FIFTH SECTION
