@@ -19,7 +19,7 @@ import Hambuhgger from './icons/hambuger.png';
 
 import './headMobile.css';
 
-import './nav.jsx';
+import './navBar.jsx';
 export default function Header() {
 
   return(
@@ -95,7 +95,7 @@ export default function Header() {
             <div className="deviceAction">
               <img src={blackSearch} alt="" className="actICN ICN" />
               <img src={blackCart} alt="" className="actICN ICN" />
-              <img src={Hambuhgger} alt="Cart" className="actICN ICN" id='hambugger' />
+              <img src={Hambuhgger} alt="Cart" className="actICN ICN hambuggerMenue" id='hambugger' />
             </div>
           </div>
 
