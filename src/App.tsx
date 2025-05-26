@@ -45,6 +45,7 @@ import twitter from './icons/twitter2.png';
 // import { useState } from 'react'
 import Header from './header';
 import './App.css';
+import './mobile.css';
 
 function App() {
 
@@ -54,45 +55,45 @@ function App() {
         <Header />
 
         {/* FIRST SECTION */}
-        <div className="firstSection">
-          <div className="leftGrid">
+        <div className="section1">
+          <div className="firstLeft">
             <div className="coconutDiv grid1">
-            <div className="coconutChild">
-              <p className="itemCount green">5 Items</p>
-              <h3 className="furniture1">FURNITURE</h3>
-              <button className="readMore">Read More</button>
-            </div>
-          </div>
-          </div>
-
-          <div className="gridRight">
-            <div className="flowerDiv grid2">
-            <div className="coconutChild">
-              <p className="itemCount green">5 Items</p>
-              <h3 className="furniture1">FURNITURE</h3>
-              <button className="readMore">Read More</button>
-            </div>
-            </div>
-
-            <div className="rightBottom">
-              <div className="bellDiv grid3">
-                <div className="coconutChild">
-                  <p className="itemCount green">5 Items</p>
-                  <h3 className="furniture1">FURNITURE</h3>
-                  <button className="readMore">Read More</button>
-                </div>
+              <div className="coconutChild">
+                <p className="itemCount green">5 Items</p>
+                <h3 className="furniture1 bolder mobileFuniture">FURNITURE</h3>
+                <button className="readMore">Read More</button>
               </div>
+            </div>
+          </div>
+
+          <div className="firstRight">
+            <div className="flowerDiv grid2">
+              <div className="coconutChild">
+                <p className="itemCount green">5 Items</p>
+                <h3 className="furniture1 mobileFuniture">FURNITURE</h3>
+                <button className="readMore">Read More</button>
+              </div>
+            </div>
+
+            <div className="firstRightUnder">
+              <div className="bellDiv grid3">
+                  <div className="coconutChild">
+                    <p className="itemCount green">5 items</p>
+                    <h3 className="furniture1 mobileFuniture">FURNITURE</h3>
+                    <button className="readMore">Read More</button>
+                  </div>
+                </div>
 
               <div className="potsDiv grid4">
-                <div className="coconutChild">
-                  <p className="itemCount green">5 Items</p>
-                  <h3 className="furniture1">FURNITURE</h3>
-                  <button className="readMore">Read More</button>
+                  <div className="coconutChild">
+                    <p className="itemCount green">5 items</p>
+                    <h3 className="furniture1 mobileFuniture">FURNITURE</h3>
+                    <button className="readMore">Read More</button>
+                  </div>
                 </div>
-              </div>
             </div>
-            
           </div>
+
         </div>
 
         {/* SECOND SECTION */}
@@ -417,9 +418,9 @@ function App() {
             <div className="sixthTXTcontainer">
               <p className="green">Designing Better Experience</p>
               <h2 className="prolemResulve">Problems trying to resolve the conflict between </h2>
+              <h4 className="mobile" id='mobile'>$16.48</h4>
               <p className="tinyTXT">Problems trying to resolve the conflict between the two major realms of Classical physics: </p>
-            <h4 className="amount">$16.48</h4>
-
+              <h4 className="amount">$16.48</h4>
             </div>
             <button className="addCall">ADD YOUR CALL TO ACTION</button>
           </div>

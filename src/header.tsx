@@ -11,6 +11,13 @@ import Cart from './icons/cart.png';
 import Search from './icons/search.png';
 import Favorite from './icons/favorite.png';
 
+// MOBILE ICONS
+import blackCart from './icons/blackCart.png';
+import blackSearch from './icons/blackSearch.png';
+import Hambuhgger from './icons/hambuger.png';
+
+import './headMobile.css';
+
 export default function Header() {
 
   return(
@@ -78,9 +85,24 @@ export default function Header() {
               <img src={Cart} alt="Cart" className="actICN ICN2" />
               <img src={Favorite} alt="Favorite" className="actICN ICN3" />
             </div>
+
           </div>
         </nav>
+          <div className="mobileActions" id='mobile'>
+            <h1 className="logo">Bandage</h1>
+            <div className="deviceAction">
+              <img src={blackSearch} alt="" className="actICN ICN" />
+              <img src={blackCart} alt="" className="actICN ICN" />
+              <img src={Hambuhgger} alt="Cart" className="actICN ICN" />
+            </div>
+          </div>
 
+          <div className="mobileNav" id='mobile'>
+            <button className="mobileNavBTN BTN3">Home</button>
+            <button className="mobileNavBTN BTN4">Product</button>
+            <button className="mobileNavBTN BTN5">Pricing</button>
+            <button className="mobileNavBTN BTN6">Contact</button>
+          </div>
       </header>
 
     </>

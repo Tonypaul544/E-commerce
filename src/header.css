@@ -103,6 +103,8 @@ nav {
   gap: 5px;
 }
 
+
+
 .navBTNs button {
   all: unset;
   width: 50px;
@@ -135,6 +137,10 @@ nav {
   gap: 10px;
   padding-top: 2.7em;
   background-color: transparent;
+}
+
+#mobile {
+  display: none;
 }
 
 .authentication {

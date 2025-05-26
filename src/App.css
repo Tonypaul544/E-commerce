@@ -29,8 +29,7 @@
 
 
 /* FIRST SECTION */
-
-.firstSection {
+.section1 {
   width: 80%;
   height: 75vh;
   display: flex;
@@ -40,63 +39,41 @@
   margin-top: 4em;
   gap: 10px;
   box-sizing: border-box;
+  animation: slideup 1s ease-in-out;
 }
 
-.rightBottom {
-  display: flex;
-  justify-content: space-between;
+@keyframes slideup {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-.leftGrid {
+.firstLeft {
   width: 30%;
   height: 100%;
-  display: flex;
-  
-  flex-direction: column;
-  justify-content: flex-start;
-  background-image: url(images/coconutBG.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   padding: var(--grid-padding);
   box-sizing: border-box;
-  color: black;
+  background-image: url(images/coconutBG.png);
+  background-size: cover;
+  background-position: center;
 }
 
-.coconutChild {
-  width: 90%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  gap: 10px;
-}
-
-.coconutChild .green {
-  color: var(--green-text);
-}
-
-.coconutChild .green:hover {
-  color: var(--green-text-hover);
-  cursor: grab;
-}
-
-.firstSection button {
-  all: unset;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.gridRight {
+.firstRight {
   width: 70%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 10px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: rgba(250, 250, 250, 1);
 }
 
-/* flower pot div */
 .flowerDiv {
   width: 100%;
   height: 50%;
@@ -111,13 +88,11 @@
   background-size: 100% 100%;
 }
 
-.rightBottom {
+.firstRightUnder {
   width: 100%;
   height: 50%;
   display: flex;
-  justify-content: space-between;
   gap: 10px;
-  color: black;
 }
 
 .bellDiv {
@@ -148,6 +123,49 @@
   background-size: cover;
 }
 
+.coconutChild {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+
+.coconutChild .green {
+  color: var(--green-text);
+}
+
+.coconutChild .green:hover {
+  color: var(--green-text-hover);
+  cursor: grab;
+}
+
+.furniture1 {
+  font-size: 1em;
+}
+
+.bolder {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.firstSection button {
+  all: unset;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: unset;
+}
+.firstSection button:hover {
+  color: var(--green-text-hover);
+  font-weight: 600;
+}
+
+.readMore {
+  all: unset;
+  font-weight: 550;
+}
+
 /* SECOND SECTION */
 .secondSection {
   width: 80%;
@@ -164,7 +182,6 @@
   padding: 20px;
   box-sizing: border-box;
   color: #000;
-  /* background-color: blueviolet; */
 }
 
 .section2Container {
@@ -178,7 +195,6 @@
   justify-content: center;
   gap: 20px;
   padding: 20px 5px;
-  /* background-color: aqua; */
 }
 
 .imgNDdetails {
@@ -637,6 +653,8 @@ button.addCall {
   display: flex;margin: auto;
 }
 
+
+/* FOOTER SECTION */
 .footer {
   width: 100%;
   height: auto;
@@ -743,3 +761,5 @@ form.subscribe {
   color: black;
   padding: 0 10em;
 }
+
+
