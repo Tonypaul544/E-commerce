@@ -482,7 +482,7 @@ function App() {
           </div>
           </div>
 
-          <div className="footerBox foot" id="">
+          <div className="footerBox foot" id="last">
             <div className="footerBox foot" id="">
               <h3 className="info">Get in Touch</h3>
               <div className="companyDetai">

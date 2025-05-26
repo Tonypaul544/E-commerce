@@ -642,7 +642,7 @@ button.addCall {
   height: auto;
   display: flex;
   margin: auto;
-  padding: 20px;
+  padding: 20px 8em;
   box-sizing: border-box;
   text-align: left;
   flex-wrap: wrap;
@@ -653,7 +653,7 @@ button.addCall {
 }
 
 .footerBox {
-  width: 200px;
+  width: 150px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -666,6 +666,7 @@ button.addCall {
 .companyDetai{
   width: 100%;
   text-align: left;
+  font-size: 12px;
   /* background-color: aqua; */
 }
 
@@ -673,6 +674,13 @@ button.addCall {
   margin-bottom: 10px;
   display: flex;
   text-align: left;
+}
+
+#last{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 form.subscribe {
@@ -733,5 +741,5 @@ form.subscribe {
   margin-top: 20px;
   background-color: rgb(245, 245, 245);
   color: black;
-  padding: 0 4em;
+  padding: 0 10em;
 }
