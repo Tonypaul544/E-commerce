@@ -11,6 +11,7 @@ import Cart from './icons/cart.png';
 import Search from './icons/search.png';
 import Favorite from './icons/favorite.png';
 
+
 // MOBILE ICONS
 import blackCart from './icons/blackCart.png';
 import blackSearch from './icons/blackSearch.png';
@@ -18,6 +19,7 @@ import Hambuhgger from './icons/hambuger.png';
 
 import './headMobile.css';
 
+import './nav.jsx';
 export default function Header() {
 
   return(
@@ -93,7 +95,7 @@ export default function Header() {
             <div className="deviceAction">
               <img src={blackSearch} alt="" className="actICN ICN" />
               <img src={blackCart} alt="" className="actICN ICN" />
-              <img src={Hambuhgger} alt="Cart" className="actICN ICN" />
+              <img src={Hambuhgger} alt="Cart" className="actICN ICN" id='hambugger' />
             </div>
           </div>
 
