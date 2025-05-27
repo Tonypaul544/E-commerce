@@ -1,10 +1,11 @@
 
 
-// const navBar = document.querySelector(".mobileNav");
+// const navBar = document.querySelector(".mobileNavBar");
 // const Hambugger = document.querySelector(".hambuggerMenue");
 
 // Hambugger.addEventListener("click", showNav);
 
 // function showNav() {
-//   navBar.style.display == "block";
+//   alert("clicked");
+//   navBar.style.display = "none";
 // }

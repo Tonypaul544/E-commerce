@@ -18,8 +18,8 @@ import blackSearch from './icons/blackSearch.png';
 import Hambuhgger from './icons/hambuger.png';
 
 import './headMobile.css';
-
 import './navBar.jsx';
+
 export default function Header() {
 
   return(

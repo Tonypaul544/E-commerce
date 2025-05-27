@@ -189,12 +189,13 @@
   gap: 15px;
   box-sizing: border-box;
   text-align: left;
+  background-color: antiquewhite;
 }
 
 .languageChange {
   width: 83%;
   font-weight: 600;
-  font-size: 16px;
+  margin: auto;
 }
 
 .horizontal {
@@ -215,12 +216,6 @@
 
  .commentCount, .date {
   font-size: 16px;
- }
-
-  .learnMore{
-  all: unset;
-  font-size: 13px;
-  font-weight: 600;
  }
 
 
@@ -410,6 +405,6 @@ button.addCall {
 }
 
 .sellerTitle {
-  font-size: 29px;
+  font-size: 17px;
 }
 

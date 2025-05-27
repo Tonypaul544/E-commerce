@@ -214,11 +214,11 @@
 }
 
 .sellerDepartment {
-  font-size: .8em;
+  font-size: .7em;
   font-weight: 560;
   color: #000;
   line-height: 35px;
-
+  opacity: .6;
 }
 
 .sellerIMG {
@@ -235,7 +235,7 @@
 }
 
 .sellerTitle {
-  font-size: .95em;
+  font-size: .5em;
   font-weight: 700;
   color: #000;
 }
@@ -252,9 +252,13 @@
   align-items: center;
 }
 
+.sellerDesc p.sellerPrice {
+  font-size: 15px;
+}
 
 .sellerPrice .pureGreen {
   color: rgba(35, 133, 109, 1);
+  font-size: 16px;
 }
 
 .loadMore {
