@@ -207,7 +207,6 @@ function App() {
                 </p>
               </div>
             </div>
-            
             <div className="imgDetails">
               <img src={cupNDspoon} alt="cupNDspoon" className="sellerIMG img1" />
 
@@ -418,7 +417,7 @@ function App() {
             <div className="sixthTXTcontainer">
               <p className="green">Designing Better Experience</p>
               <h2 className="prolemResulve">Problems trying to resolve the conflict between </h2>
-              <h4 className="greemobile" id='mobile'>$16.48</h4>
+              {/* <h4 className="greemobile" id='mobile'>$16.48</h4> */}
               <p className="tinyTXT">Problems trying to resolve the conflict between the two major realms of Classical physics: </p>
               <h4 className="amount">$16.48</h4>
             </div>

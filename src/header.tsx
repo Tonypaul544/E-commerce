@@ -62,12 +62,10 @@ export default function Header() {
           <div className="navBTNs">
             <button className="navBTN BTN1">Home</button>
             <select name="shop" id="">
-              <label htmlFor="">
-                <option>Shop</option>
-                <option>Shop2</option>
-                <option>Shop3</option>
-                <option>Shop4</option>
-              </label>
+                <option className='options'>Shop</option>
+                <option className='options'>Shop2</option>
+                <option className='options'>Shop3</option>
+                <option className='options'>Shop4</option>
             </select>
             <button className="navBTN BTN3">About</button>
             <button className="navBTN BTN4">Blog</button>
@@ -89,7 +87,7 @@ export default function Header() {
             </div>
 
           </div>
-        </nav>
+        
           <div className="mobileActions" id='mobile'>
             <h1 className="logo">Bandage</h1>
             <div className="deviceAction">
@@ -105,6 +103,7 @@ export default function Header() {
             <button className="mobileNavBTN BTN5">Pricing</button>
             <button className="mobileNavBTN BTN6">Contact</button>
           </div>
+        </nav>
       </header>
 
     </>
