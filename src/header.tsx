@@ -18,7 +18,6 @@ import blackSearch from './icons/blackSearch.png';
 import Hambuhgger from './icons/hambuger.png';
 
 import './headMobile.css';
-import './navBar.jsx';
 
 export default function Header() {
 
@@ -87,7 +86,8 @@ export default function Header() {
             </div>
 
           </div>
-        
+        </nav>
+
           <div className="mobileActions" id='mobile'>
             <h1 className="logo">Bandage</h1>
             <div className="deviceAction">
@@ -97,15 +97,10 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="mobileNav" id='mobile'>
-            <button className="mobileNavBTN BTN3">Home</button>
-            <button className="mobileNavBTN BTN4">Product</button>
-            <button className="mobileNavBTN BTN5">Pricing</button>
-            <button className="mobileNavBTN BTN6">Contact</button>
-          </div>
-        </nav>
       </header>
 
     </>
+    
   );
 }
+import './navBar.jsx';

@@ -11,6 +11,23 @@
     font-size: 1.6em;
   }
 
+  .mobileNav {
+  max-width: 80%;
+  height: auto;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 3.8em;
+  background-color: salmon;
+}
+
+
+
   /* FIRST SECTION */
 
 .section1 {
@@ -434,4 +451,8 @@ button.addCall {
 
 .copyrightText {
   font-size: 14px;
+}
+
+#showNav{
+  display: none;
 }

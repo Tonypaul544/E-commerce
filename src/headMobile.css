@@ -63,18 +63,7 @@ nav {
   width: 100%;
 }
 
-.mobileNav {
-  max-width: 80%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 0 20px;
-  box-sizing: border-box;
-  margin: 10px auto;
-}
+
 
 .deviceAction {
   width: 40%;
