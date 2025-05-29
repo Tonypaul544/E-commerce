@@ -169,6 +169,11 @@
   margin-bottom: 10px;
 }
 
+.sellerPrice small {
+  font-size: 16px;
+  opacity: .6;
+}
+
 /* FOURTH SECTION */
 .featuredItem {
   width: 320px;
@@ -189,13 +194,27 @@
   gap: 15px;
   box-sizing: border-box;
   text-align: left;
-  background-color: antiquewhite;
+}
+
+.trendingNews {
+  width: 90%;
+  display: flex;
+  word-spacing: 10px;
+  font-size: 15px;
+  font-weight: 560;
+}
+
+.trendingNews .green {
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 520;
 }
 
 .languageChange {
-  width: 83%;
+  width: 100%;
   font-weight: 600;
   margin: auto;
+  font-size: 15px;
 }
 
 .horizontal {
@@ -355,7 +374,7 @@ button.addCall {
 
 .sixthHorizontal {
   width: 100%;
-  height: 10%;
+  height: auto;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -386,6 +405,18 @@ button.addCall {
 }
 
 
+  
+
+}
+
+.sellerTitle {
+  font-size: 17px;
+}
+
+.footerBox .companyDetai p {
+  font-size: 15px;
+}
+
 .copyright {
   width: 100%;
   height: auto;
@@ -400,11 +431,7 @@ button.addCall {
   color: black;
   padding: 20px 3em;
 }
-  
 
+.copyrightText {
+  font-size: 14px;
 }
-
-.sellerTitle {
-  font-size: 17px;
-}
-
