@@ -1,11 +1,12 @@
 
+// const { Outlet } = require("react-router-dom");
 
-// const navBar = document.querySelector(".mobileNavBar");
-// const Hambugger = document.querySelector(".hambuggerMenue");
+
+// const navBar = document.getElementById("showNav");
+// const Hambugger = document.getElementById("hambugger");
 
 // Hambugger.addEventListener("click", showNav);
-
 // function showNav() {
-//   alert("clicked");
-//   navBar.style.display = "none";
+//   alert("Hambugger clicked");
+//   navBar.style.display = "block";
 // }

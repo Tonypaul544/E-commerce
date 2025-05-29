@@ -53,6 +53,13 @@ function App() {
     <>
       <div>
         <Header />
+        
+          <div className="mobileNav" id='showNav'>
+            <button className="mobileNavBTN BTN3">Home</button>
+            <button className="mobileNavBTN BTN4">Product</button>
+            <button className="mobileNavBTN BTN5">Pricing</button>
+            <button className="mobileNavBTN BTN6">Contact</button>
+          </div>
 
         {/* FIRST SECTION */}
         <div className="section1">
@@ -171,7 +178,7 @@ function App() {
             
             <div className="imgDetails">
               <img src={eatingTools} alt="eatingTools" className="sellerIMG img1" />
-
+            
               <div className="sellerDesc">
                 <h3 className="sellerTitle">Graphic Design</h3>
                 <p className="sellerDepartment">English Department</p>
