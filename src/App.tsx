@@ -504,7 +504,7 @@ function App() {
           </div>
         </div>
         <div className="copyright">
-          <p className="copyrightText">Made With Love By Finland All Right Reserved </p>
+          <p className="copyrightText">Made With Love By Courage. All Right Reserved. </p>
         </div>
 
       </div>
